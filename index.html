@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efetuar Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="loginbg">
+        <div class="loginc">
+           <div class="login">
+            <p class="semlogin">Ainda não possui login?<a href="#">Cadastre-se</a></p>
+            <h1>Fazer Login</h1>
+            <div id="msgerro"></div>
+            <input class="grid-16"type="text" placeholder="Usuário" id="usuario" >
+            <input class="grid-16"type="password" name="" placeholder="Senha" id="senha" >
+            <p class="check"><input type="checkbox" name="" id="">Mantenha-me conectado</p>
+            <a href="#loginfeito"><button class="grid-16 btn"type="submit" onclick="logar()">Entrar</button></a>
+            <p class="ou">OU</p>
+            <div class="facebook">
+                <div>
+                    <img src="facebook-icone-icon.png" alt="">
+                </div>
+                <a href=""><p>Entrar pelo Facebook</p></a>
+            </div>
+           </div>
+           <a href="" class="esqueceu"><p>Esqueceu sua senha?</p></a>
+        </div>
+    </main>
+
+    <section id="loginfeito"class="loginfeito remove">
+        <div class="logincfeito">
+            <h1>Parabéns!</h1>
+            <p>O login foi efetuado com sucesso.</p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

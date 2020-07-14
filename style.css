@@ -1,0 +1,192 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('imgbg.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 0;
+    color: white;
+}
+
+
+.loginc {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+
+.grid-16 {
+    margin: 0 10px;
+    display: block;
+    min-height: 1px;
+    float: left;
+}
+
+.login a {
+    color: #4b6eb9;
+}
+
+.grid-16 {width: calc(100%);}
+
+
+.login img {
+    height: 20px;
+}
+
+.login h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 0 30px 0;
+}
+
+.semlogin {
+    text-align: right;
+}
+
+
+.loginbg {
+    width: 500px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.800);
+    padding: 10px 0 30px 0;
+    margin-top: 120px;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.493);
+}
+
+.login input {
+    margin-bottom: 20px;
+    padding: 10px 0 5px 0;
+    background: none;
+    border-style: none;
+    outline: none;
+    border-bottom: 3px solid #4b6eb9;
+    color: #4b6eb9;
+    font-size: 20px;
+}
+::-webkit-input-placeholder {
+    color: #4b6eb9;
+}
+
+.login input, button {
+    position: relative;
+    left: -10px;
+}
+
+.btn {
+    display: block;
+    padding: 15px 10px;
+    background: #e59f44;
+    border-style: none;
+    outline: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.ou {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.ou::after, .ou::before {
+    content: '';
+    display: inline-block;
+    width: 158px;
+    height: 3px;
+    background: white;
+    margin: 5px 10px;
+}
+
+.check {
+    margin: 0 10px;
+}
+
+.esqueceu {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.facebook {
+    width: 189px;
+    margin: 20px auto 40px auto;
+}
+
+.facebook p {
+    font-weight: bold;
+}
+
+.facebook a {
+    color: #385185;
+    text-decoration: none;
+}
+.facebook a:hover {
+    color: #e59f44;
+    transition: 0.5s;
+}
+.facebook img {
+    float: left;
+    margin-right: 5px;
+}
+
+.esqueceu {
+    color: #4B6EAD;
+    text-align: center;
+}
+
+#msgerro {
+    color: red;
+}
+
+
+
+.logincfeito {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 150px 0;
+    
+}
+
+.loginfeito {
+    margin-top: 150px;
+    padding: 120px 0;
+    background: rgba(0, 0, 0, 0.801);
+}
+
+.loginfeito h1 {
+    font-size: 128px;
+    color: green;
+    margin-bottom: 100px;
+}
+
+.loginfeito p {
+    font-size: 60px;
+    color: green;
+}
+
+.remove {
+    display: none;
+}
